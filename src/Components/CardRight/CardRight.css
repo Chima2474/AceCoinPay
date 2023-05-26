@@ -1,0 +1,116 @@
+.card-right {
+  /* width: 100%; */
+  margin-top: 2rem;
+}
+
+.upper-card {
+  position: relative;
+  width: 60vw;
+  background: white;
+  -webkit-box-shadow: -1px 1px 10px -7px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -1px 1px 10px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 1px 10px -7px rgba(0, 0, 0, 0.75);
+  height: 15rem;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  z-index: 10000;
+  opacity: 0.8;
+}
+
+.credit-cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 1rem;
+}
+
+.mastercard {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  align-items: center;
+}
+
+#card-name {
+  margin-top: 2rem;
+}
+.card-details {
+  padding: 0.2rem 1rem;
+}
+
+#card-number {
+  font-weight: bold;
+}
+
+.lower-card {
+  width: 80vw;
+  background: rgb(237, 233, 233);
+  height: 20rem;
+  border-radius: 15px;
+  /* margin-top: -10rem; */
+  margin: -11.5rem auto 0 auto;
+}
+.company {
+  padding: 12rem 3rem 0.5rem 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+.apple {
+  background: black;
+  color: white;
+  padding: 0.2rem;
+  border-radius: 50%;
+}
+
+.apple-container {
+  display: flex;
+  gap: 0.6rem;
+  align-items: center;
+}
+
+.order,
+.product,
+.vat {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 3rem;
+  font-size: 12px;
+}
+.last-card {
+  width: 80vw;
+  background: rgb(237, 233, 233);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+
+.payment {
+  display: flex;
+  align-items: baseline;
+  padding: 0.5rem 3rem;
+}
+
+.payment-text {
+  padding: 0.5rem 3rem;
+}
+
+@media screen and (min-width: 678px) {
+  .card-right {
+    flex: 1;
+  }
+  .upper-card {
+    width: 10rem;
+  }
+
+  .lower-card {
+    width: 15rem;
+  }
+
+  .last-card {
+    width: 15rem;
+  }
+}

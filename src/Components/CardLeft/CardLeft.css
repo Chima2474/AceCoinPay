@@ -1,0 +1,153 @@
+.left-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hicash {
+  background: #8080ff;
+  border-radius: 50%;
+  padding: 0.2rem;
+  color: white;
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+strong {
+  font-size: 1.5rem;
+}
+
+.timer {
+  color: white;
+  background: #000000;
+  padding: 0.5rem;
+  border-radius: 7px;
+}
+
+.card {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-number {
+  font-weight: bold;
+}
+
+.edit {
+  color: #5050dd;
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  gap: 0.1rem;
+}
+
+.digits {
+  font-size: 15px;
+  max-width: 10rem;
+  padding-top: 0.3rem;
+  font-size: 13px;
+  opacity: 0.5;
+}
+
+.card-input {
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: #f9f9fc;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.card-input input {
+  border: none;
+  outline: none;
+  background: #f9f9fc;
+  width: 100%;
+}
+
+.card-input input[type="text"] {
+  font-size: 16px;
+  padding: 0.8rem;
+}
+
+.good {
+  color: #4d4dff;
+}
+
+.grid {
+  background: #f9f9fc;
+}
+
+.cvv-number {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cvv-input {
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  background: #f9f9fc;
+  border-radius: 5px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.cvv-input input {
+  border: none;
+  outline: none;
+  background: #f9f9fc;
+  width: 100%;
+}
+
+.expiry-date {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.expiry-date input {
+  max-width: 4.3rem;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.expiry-date input[type="number"] {
+  font-size: 16px;
+  padding: 0.8rem;
+}
+
+.pay-btn {
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.btn {
+  width: 100%;
+  padding: 0.8rem 0.3rem;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  font-size: 16px;
+  background: #4d4dff;
+  border: none;
+}
+
+@media screen and (min-width: 678px) {
+  .digits {
+    max-width: 20rem;
+  }
+
+  .card-left {
+    flex: 3;
+  }
+}
