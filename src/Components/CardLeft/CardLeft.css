@@ -110,6 +110,12 @@ strong {
   width: 100%;
 }
 
+.cvv-input input::placeholder {
+  font-weight: bold;
+  font-size: 15px;
+  color: black;
+}
+
 .expiry-date {
   display: flex;
   gap: 0.5rem;

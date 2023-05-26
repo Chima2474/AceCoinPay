@@ -45,7 +45,7 @@ const CardLeft = () => {
           <p className="digits">Enter your 3 or 4 digit number on the card</p>
         </div>
         <div className="cvv-input">
-          <input type="text" />
+          <input type="text" placeholder="327" />
           <BsFillGrid3X3GapFill size={20} className="grid" />
         </div>
       </div>
@@ -56,9 +56,9 @@ const CardLeft = () => {
           <p className="digits">Enter the expiry date on the card</p>
         </div>
         <div className="expiry-date">
-          <input type="number" />
+          <input type="number" placeholder="09" />
           <span>/</span>
-          <input type="number" />
+          <input type="number" placeholder="02" />
         </div>
       </div>
 
@@ -68,7 +68,7 @@ const CardLeft = () => {
           <p className="digits">Enter your Dynamic password</p>
         </div>
         <div className="cvv-input">
-          <input type="password" />
+          <input type="password" placeholder="......" />
           <BsFillGrid3X3GapFill size={20} className="grid" />
         </div>
       </div>

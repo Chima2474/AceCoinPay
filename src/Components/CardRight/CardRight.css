@@ -43,7 +43,7 @@
 }
 
 .lower-card {
-  width: 80vw;
+  /* width: 80vw; */
   background: rgb(237, 233, 233);
   height: 20rem;
   border-radius: 15px;
@@ -80,7 +80,7 @@
   font-size: 12px;
 }
 .last-card {
-  width: 80vw;
+  /* width: 80vw; */
   background: rgb(237, 233, 233);
   margin-left: auto;
   margin-right: auto;
